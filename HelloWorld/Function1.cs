@@ -54,8 +54,8 @@ namespace HelloWorld
 
         [FunctionName("GetPersons")]
         public static IActionResult GetPersons(
-            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "persons")] HttpRequest req,
-            ILogger log)
+            [HttpTrigger(AuthorizationLevel.Function, "get", Route = "persons")] HttpRequest req
+           )
         {
             return new OkObjectResult(persons);
         }
@@ -81,8 +81,8 @@ namespace HelloWorld
         [FunctionName("DeletePerson")]
         public static IActionResult DeletePerson(
             [HttpTrigger(AuthorizationLevel.Function, "delete", Route = "persons/{id}")] HttpRequest req,
-            int id,
-            ILogger log)
+            int id
+            )
         {
             var personToDelete = persons.FirstOrDefault(p => p.Id == id);
 
