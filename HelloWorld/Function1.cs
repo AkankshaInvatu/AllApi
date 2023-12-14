@@ -133,7 +133,7 @@ namespace HelloWorld
             if (file != null && file.Length > 0)
             {
                
-                string storageConnectionString = Environment.GetEnvironmentVariable("AzureWebJobsStorage");
+                string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=helloworld20231212134615;AccountKey=QnCdqNQMyY7HTs4OZB3SygURAu8GFvHvMhXop5uatpfr2bMzM3rWXNpOUelgqphzC194K58OSBmI+AStqkNjtw==;EndpointSuffix=core.windows.net";
 
  
                 CloudStorageAccount storageAccount;
