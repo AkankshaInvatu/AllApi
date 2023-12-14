@@ -118,54 +118,54 @@ namespace HelloWorld
 
             return new OkObjectResult(personToPatch);
         }
-
         [FunctionName("UploadImage")]
         public static async Task<IActionResult> Run3(
-        [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req
-      )
+            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req)
         {
-           
-
-           
-            var formCollection = await req.ReadFormAsync();
-            var file = formCollection.Files["file"];
-
-            if (file != null && file.Length > 0)
+            try
             {
-               
-                string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=helloworld20231212134615;AccountKey=QnCdqNQMyY7HTs4OZB3SygURAu8GFvHvMhXop5uatpfr2bMzM3rWXNpOUelgqphzC194K58OSBmI+AStqkNjtw==;EndpointSuffix=core.windows.net";
+                var formCollection = await req.ReadFormAsync();
+                var file = formCollection.Files["file"];
 
- 
-                CloudStorageAccount storageAccount;
-                if (CloudStorageAccount.TryParse(storageConnectionString, out storageAccount))
+                if (file != null && file.Length > 0)
                 {
-                  
-                    CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
+                    string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=helloworld20231212134615;AccountKey=QnCdqNQMyY7HTs4OZB3SygURAu8GFvHvMhXop5uatpfr2bMzM3rWXNpOUelgqphzC194K58OSBmI+AStqkNjtw==;EndpointSuffix=core.windows.net";
 
-                  
-                    CloudBlobContainer container = blobClient.GetContainerReference("images");
-
-                    
-                    await container.CreateIfNotExistsAsync();
-
-                   
-                    CloudBlockBlob blockBlob = container.GetBlockBlobReference(file.FileName);
-                    using (var stream = file.OpenReadStream())
+                    CloudStorageAccount storageAccount;
+                    if (CloudStorageAccount.TryParse(storageConnectionString, out storageAccount))
                     {
-                        await blockBlob.UploadFromStreamAsync(stream);
-                    }
+                        CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
+                        CloudBlobContainer container = blobClient.GetContainerReference("images");
 
-                    return new OkObjectResult($"File uploaded successfully: {file.FileName}");
+                        await container.CreateIfNotExistsAsync();
+
+                        CloudBlockBlob blockBlob = container.GetBlockBlobReference(file.FileName);
+                        using (var stream = file.OpenReadStream())
+                        {
+                            await blockBlob.UploadFromStreamAsync(stream);
+                        }
+
+                        return new OkObjectResult($"File uploaded successfully: {file.FileName}");
+                    }
+                    else
+                    {
+                        return new BadRequestObjectResult("Invalid storage connection string");
+                    }
                 }
                 else
                 {
-                    return new BadRequestObjectResult("Invalid storage connection string");
+                    return new BadRequestObjectResult("No file found in the request");
                 }
             }
-            else
+            catch (Exception ex)
             {
-                return new BadRequestObjectResult("No file found in the request");
+                
+                Console.WriteLine($"Exception: {ex.Message}");
+                return new StatusCodeResult(500); 
             }
         }
+
+
+    }
     }
 }
