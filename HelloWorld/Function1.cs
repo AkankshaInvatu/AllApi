@@ -12,17 +12,25 @@ using System.Linq;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.WindowsAzure.Storage.Blob;
 using Microsoft.WindowsAzure.Storage;
+using System.Configuration;
+using Microsoft.WindowsAzure.Storage.Queue;
+using System.Text;
 
 namespace HelloWorld
 {
     public static class Function1
     {
+
+
+       // private const string ServiceBusConnectionString = "Endpoint=sb://helloservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=VjMz12seAoA4clIlI/gKXW8Tr+U4SIdpv+ASbLo/7Kk=";
+        private const string QueueName = "helloqueue";
+
         [FunctionName("HelloWorld")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req
             )
         {
-           
+
 
             string name = req.Query["name"];
 
@@ -118,9 +126,10 @@ namespace HelloWorld
 
             return new OkObjectResult(personToPatch);
         }
+
         [FunctionName("UploadImage")]
         public static async Task<IActionResult> Run3(
-            [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req)
+           [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req)
         {
             try
             {
@@ -159,13 +168,103 @@ namespace HelloWorld
             }
             catch (Exception ex)
             {
-                
+
                 Console.WriteLine($"Exception: {ex.Message}");
-                return new StatusCodeResult(500); 
+                return new StatusCodeResult(500);
+            }
+        }
+
+        [FunctionName("CreateDocument")]
+        public static async Task<IActionResult> Run5(
+        [HttpTrigger(AuthorizationLevel.Function, "post", Route = "documents")] HttpRequest req,
+        [CosmosDB(
+            databaseName: "1",
+           containerName: "ContainerApi1",
+           Connection = "CosmosDBConnectionString",
+            CreateIfNotExists = true,
+            PartitionKey = "/document")] IAsyncCollector<MyDocument> documents,
+        ILogger log)
+        {
+
+
+            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            var data = JsonConvert.DeserializeObject<MyDocument>(requestBody);
+
+
+
+            await documents.AddAsync(data);
+
+            return new OkObjectResult($"Document added: {data.Id}");
+        }
+
+        [FunctionName("UpdateDocument")]
+        public static async Task<IActionResult> Run6(
+        [HttpTrigger(AuthorizationLevel.Function, "put", Route = "documents/{id}")] HttpRequest req,
+        [CosmosDB(
+            databaseName: "1",
+            containerName: "ContainerApi1",
+            Connection = "CosmosDBConnectionString")] IAsyncCollector<MyDocument> documents,
+        [CosmosDB(
+            databaseName: "1",
+            containerName: "ContainerApi1",
+            Connection = "CosmosDBConnectionString",
+
+            Id = "{id}")] MyDocument existingDocument,
+        ILogger log, string id)
+        {
+            log.LogInformation($"UpdateDocument function triggered for id: {id}");
+
+            if (existingDocument == null)
+            {
+                log.LogInformation($"Document with id {id} not found.");
+                return new NotFoundResult();
+            }
+
+            try
+            {
+                // Read the request body and update the existing document
+                string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+                MyDocument updatedDocument = JsonConvert.DeserializeObject<MyDocument>(requestBody);
+
+                // Update properties of existingDocument with values from updatedDocument
+              
+                existingDocument.Update(updatedDocument);
+
+                // Save the updated document back to Cosmos DB
+                await documents.AddAsync(existingDocument);
+
+                log.LogInformation($"Document with id {id} updated successfully.");
+
+                return new OkResult();
+            }
+            catch (Exception ex)
+            {
+                log.LogError($"Error updating document with id {id}: {ex.Message}");
+                return new StatusCodeResult(500);
             }
         }
 
 
+        [FunctionName("SendMessageToQueue")]
+        public static async Task<IActionResult> SendMessageToQueue(
+            [HttpTrigger(AuthorizationLevel.Function, "post")] HttpRequest req,
+            [ServiceBus(QueueName, Connection = "ServiceBusConnectionString")] IAsyncCollector<string> messages,
+            ILogger log)
+        {
+            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            await messages.AddAsync(requestBody);
+
+            log.LogInformation($"Message added to the queue: {requestBody}");
+
+            return new OkResult();
+        }
+
+           
+        }
+
+
     }
-    }
-}
+
+   
+
+
