@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DKxKHcGWDCoVDQwge8W5k/SkRHQLAeW0vXyBfeEi1AaXeJZ81XFIOzxMPG9Y4o2L3YgOUZ83zLcgm6mpYy5OBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akank\\source\\repos\\ScrapCar\\ScrapCar\\ScrapCar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akank\\.nuget\\packages\\htmlagilitypack\\1.11.57\\htmlagilitypack.1.11.57.nupkg.sha512"
+  ],
+  "logs": []
+}

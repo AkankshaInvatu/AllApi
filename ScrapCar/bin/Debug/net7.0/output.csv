@@ -1,0 +1,12 @@
+Make,Model,Year,FuelType,Engine Power
+Audi,1 Series,1957,0.1 (110-125cm³)
+BMW,2,1960,0.6 (569-650cm³)
+Bentley,3,1963,0.7 (652-748cm³)
+CPI,4 Series,1965,0.8 (750-848cm³)
+Cadillac,4.107,1967,0.9 (870-948cm³)
+Chevrolet,6,1968,1.0 (954-1050cm³)
+Citroen,7 Series,1969,1.1 (1051-1149cm³)
+DAF,9-3,1970,1.2 (1150-1250cm³)
+Dacia,25,1971,1.4 (1351-1449cm³)
+Fiat,57,1980,1.5 (1451-1548cm³)
+Ford,106,2017,1.6 (1555-1647cm³)
