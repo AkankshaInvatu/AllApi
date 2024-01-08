@@ -15,3 +15,4 @@ C:\Users\akank\source\repos\ScrapCar\ScrapCar\obj\Debug\net7.0\refint\ScrapCar.d
 C:\Users\akank\source\repos\ScrapCar\ScrapCar\obj\Debug\net7.0\ScrapCar.pdb
 C:\Users\akank\source\repos\ScrapCar\ScrapCar\obj\Debug\net7.0\ScrapCar.genruntimeconfig.cache
 C:\Users\akank\source\repos\ScrapCar\ScrapCar\obj\Debug\net7.0\ref\ScrapCar.dll
+C:\Users\akank\source\repos\ScrapCar\ScrapCar\bin\Debug\net7.0\CsvHelper.dll
