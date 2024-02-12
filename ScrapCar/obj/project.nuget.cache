@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9EonfOdohqerU2HLoOyZNw5bVEumzXtR2vya3BUlSccOjFSsaOmwum6NdRHDe6xRgfn+ul4dYNOUgMoHjqoYwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akank\\source\\repos\\ScrapCar\\ScrapCar\\ScrapCar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akank\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\akank\\.nuget\\packages\\htmlagilitypack\\1.11.57\\htmlagilitypack.1.11.57.nupkg.sha512"
+  ],
+  "logs": []
+}
