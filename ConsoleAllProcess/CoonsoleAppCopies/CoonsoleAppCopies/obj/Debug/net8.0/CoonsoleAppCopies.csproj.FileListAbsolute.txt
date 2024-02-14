@@ -1,0 +1,14 @@
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\bin\Debug\net8.0\CoonsoleAppCopies.exe
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\bin\Debug\net8.0\CoonsoleAppCopies.deps.json
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\bin\Debug\net8.0\CoonsoleAppCopies.runtimeconfig.json
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\bin\Debug\net8.0\CoonsoleAppCopies.dll
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\bin\Debug\net8.0\CoonsoleAppCopies.pdb
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.AssemblyInfoInputs.cache
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.AssemblyInfo.cs
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.csproj.CoreCompileInputs.cache
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.dll
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\refint\CoonsoleAppCopies.dll
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.pdb
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\CoonsoleAppCopies.genruntimeconfig.cache
+C:\Users\akank\source\repos\CoonsoleAppCopies\CoonsoleAppCopies\obj\Debug\net8.0\ref\CoonsoleAppCopies.dll

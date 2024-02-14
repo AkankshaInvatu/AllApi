@@ -1,0 +1,95 @@
+12-02-2024 09:29:10 - Machine Name: MSI
+12-02-2024 09:29:10 - Process Name: sihost.exe, File Path: C:\Windows\system32\sihost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: explorer.exe, File Path: C:\Windows\Explorer.EXE
+12-02-2024 09:29:10 - Process Name: taskhostw.exe, File Path: C:\Windows\system32\taskhostw.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: StartMenuExperienceHost.exe, File Path: C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: ApplicationFrameHost.exe, File Path: C:\Windows\system32\ApplicationFrameHost.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: LockApp.exe, File Path: C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: svchost.exe, File Path: C:\Windows\system32\svchost.exe
+12-02-2024 09:29:10 - Process Name: OneDrive.exe, File Path: C:\Users\akank\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+12-02-2024 09:29:10 - Process Name: backgroundTaskHost.exe, File Path: C:\Windows\system32\backgroundTaskHost.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: SearchHost.exe, File Path: C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe
+12-02-2024 09:29:10 - Process Name: XboxGameBarSpotify.exe, File Path: C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.230.1135.0_x64__zpdnekdrzrea0\XboxGameBarSpotify.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: RtkUWP.exe, File Path: C:\Program Files\WindowsApps\RealtekSemiconductorCorp.RealtekAudioControl_1.41.290.0_x64__dt26b99r8h8gj\RtkUWP.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: ShellExperienceHost.exe, File Path: C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: dllhost.exe, File Path: C:\Windows\system32\DllHost.exe
+12-02-2024 09:29:10 - Process Name: Flock.exe, File Path: C:\Users\akank\AppData\Local\Flock\Flock.exe
+12-02-2024 09:29:10 - Process Name: Flock.exe, File Path: C:\Users\akank\AppData\Local\Flock\Flock.exe
+12-02-2024 09:29:10 - Process Name: Flock.exe, File Path: C:\Users\akank\AppData\Local\Flock\Flock.exe
+12-02-2024 09:29:10 - Process Name: Flock.exe, File Path: C:\Users\akank\AppData\Local\Flock\Flock.exe
+12-02-2024 09:29:10 - Process Name: Flock.exe, File Path: C:\Users\akank\AppData\Local\Flock\Flock.exe
+12-02-2024 09:29:10 - Process Name: SystemSettingsBroker.exe, File Path: C:\Windows\System32\SystemSettingsBroker.exe
+12-02-2024 09:29:10 - Process Name: FileCoAuth.exe, File Path: C:\Users\akank\AppData\Local\Microsoft\OneDrive\24.015.0121.0003\FileCoAuth.exe
+12-02-2024 09:29:10 - Process Name: SystemSettings.exe, File Path: C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+12-02-2024 09:29:10 - Process Name: UserOOBEBroker.exe, File Path: C:\Windows\System32\oobe\UserOOBEBroker.exe
+12-02-2024 09:29:10 - Process Name: dllhost.exe, File Path: C:\Windows\system32\DllHost.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: Flock.exe, File Path: C:\Users\akank\AppData\Local\Flock\Flock.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: Notepad.exe, File Path: C:\Program Files\WindowsApps\Microsoft.WindowsNotepad_11.2312.18.0_x64__8wekyb3d8bbwe\Notepad\Notepad.exe
+12-02-2024 09:29:10 - Process Name: dllhost.exe, File Path: C:\Windows\system32\DllHost.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: LocationNotificationWindows.exe, File Path: C:\Windows\System32\LocationNotificationWindows.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: msedge.exe, File Path: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+12-02-2024 09:29:10 - Process Name: chrome.exe, File Path: C:\Program Files\Google\Chrome\Application\chrome.exe
+12-02-2024 09:29:10 - Process Name: MoNotificationUx.exe, File Path: C:\Windows\uus\packages\preview\AMD64\MoNotificationUx.exe
+12-02-2024 09:29:10 - Process Name: devenv.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe
+12-02-2024 09:29:10 - Process Name: Microsoft.ServiceHub.Controller.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\controller\Microsoft.ServiceHub.Controller.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.IdentityHost.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.netfx.x86\ServiceHub.IdentityHost.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.VSDetouredHost.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.AnyCPU\ServiceHub.VSDetouredHost.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.SettingsHost.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.AnyCPU\ServiceHub.SettingsHost.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.Host.netfx.x86.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.netfx.x86\ServiceHub.Host.netfx.x86.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.ThreadedWaitDialog.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.AnyCPU\ServiceHub.ThreadedWaitDialog.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.RoslynCodeAnalysisService.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.Dotnet.x64\ServiceHub.RoslynCodeAnalysisService.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.IndexingService.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.Dotnet.x64\ServiceHub.IndexingService.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.IntellicodeModelService.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.netfx.x64\ServiceHub.IntellicodeModelService.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.Host.dotnet.x64.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.Dotnet.x64\ServiceHub.Host.dotnet.x64.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.Host.AnyCPU.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.AnyCPU\ServiceHub.Host.AnyCPU.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.TestWindowStoreHost.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.AnyCPU\ServiceHub.TestWindowStoreHost.exe
+12-02-2024 09:29:10 - Process Name: MSBuild.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe
+12-02-2024 09:29:10 - Process Name: conhost.exe, File Path: C:\Windows\system32\conhost.exe
+12-02-2024 09:29:10 - Process Name: VBCSCompiler.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\VBCSCompiler.exe
+12-02-2024 09:29:10 - Process Name: conhost.exe, File Path: C:\Windows\system32\conhost.exe
+12-02-2024 09:29:10 - Process Name: VsDebugConsole.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Platform\Debugger\VsDebugConsole.exe
+12-02-2024 09:29:10 - Process Name: conhost.exe, File Path: C:\Windows\system32\conhost.exe
+12-02-2024 09:29:10 - Process Name: OpenConsole.exe, File Path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe\OpenConsole.exe
+12-02-2024 09:29:10 - Process Name: WindowsTerminal.exe, File Path: C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.10301.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe
+12-02-2024 09:29:10 - Process Name: RuntimeBroker.exe, File Path: C:\Windows\System32\RuntimeBroker.exe
+12-02-2024 09:29:10 - Process Name: ConsoleAppProcessWithFilePath.exe, File Path: C:\Users\akank\source\repos\ConsoleAppProcessWithFilePath\ConsoleAppProcessWithFilePath\bin\Debug\net8.0\ConsoleAppProcessWithFilePath.exe
+12-02-2024 09:29:10 - Process Name: ServiceHub.DataWarehouseHost.exe, File Path: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\ServiceHub\Hosts\ServiceHub.Host.Dotnet.x64\ServiceHub.DataWarehouseHost.exe

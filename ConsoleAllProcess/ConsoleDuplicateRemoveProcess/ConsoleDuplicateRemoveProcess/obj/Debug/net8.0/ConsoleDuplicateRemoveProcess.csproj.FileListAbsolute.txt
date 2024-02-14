@@ -1,0 +1,14 @@
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\bin\Debug\net8.0\ConsoleDuplicateRemoveProcess.exe
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\bin\Debug\net8.0\ConsoleDuplicateRemoveProcess.deps.json
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\bin\Debug\net8.0\ConsoleDuplicateRemoveProcess.runtimeconfig.json
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\bin\Debug\net8.0\ConsoleDuplicateRemoveProcess.dll
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\bin\Debug\net8.0\ConsoleDuplicateRemoveProcess.pdb
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.AssemblyInfoInputs.cache
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.AssemblyInfo.cs
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.csproj.CoreCompileInputs.cache
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.dll
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\refint\ConsoleDuplicateRemoveProcess.dll
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.pdb
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ConsoleDuplicateRemoveProcess.genruntimeconfig.cache
+C:\Users\akank\source\repos\ConsoleDuplicateRemoveProcess\ConsoleDuplicateRemoveProcess\obj\Debug\net8.0\ref\ConsoleDuplicateRemoveProcess.dll

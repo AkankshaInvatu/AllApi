@@ -1,0 +1,14 @@
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\bin\Debug\net8.0\ConsoleAppProcess.exe
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\bin\Debug\net8.0\ConsoleAppProcess.deps.json
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\bin\Debug\net8.0\ConsoleAppProcess.runtimeconfig.json
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\bin\Debug\net8.0\ConsoleAppProcess.dll
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\bin\Debug\net8.0\ConsoleAppProcess.pdb
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.AssemblyInfoInputs.cache
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.AssemblyInfo.cs
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.csproj.CoreCompileInputs.cache
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.dll
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\refint\ConsoleAppProcess.dll
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.pdb
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ConsoleAppProcess.genruntimeconfig.cache
+C:\Users\akank\source\repos\ConsoleAppProcess\ConsoleAppProcess\obj\Debug\net8.0\ref\ConsoleAppProcess.dll
